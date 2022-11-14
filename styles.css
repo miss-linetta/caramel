@@ -1,0 +1,239 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+html {
+    overflow-x:  hidden;
+}
+
+body {
+    font-family: Source Sans Pro;
+    color: #000004;
+    padding: 15px;
+    position: absolute;
+	display:block;
+	max-width: 1366px;
+}
+
+/*Шапка сайту*/
+a {
+    text-decoration: none;
+    padding: 15px;
+    color: #000000bd;
+}
+
+header {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+#main {
+	font-family: Lithos;
+	text-align: center;
+	font-size: 30px;
+	color: #900040;
+	text-shadow: 4px 3px 2px #a9a3a9;
+	letter-spacing: 0.7em;
+}
+
+.secname {
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: #00000091;
+	line-height: 35px;
+}
+
+/*Основна частина*/
+.image {
+	margin-left: 1%;
+	margin-right: 1%;	
+	margin-bottom: 1%;
+}
+
+/*Таблиця*/
+table {
+	margin: auto;
+	border-collapse: collapse;
+	border: 2px solid white;
+	border-bottom: none;
+	padding-left: 1em; 
+	font-size: 16px;
+	background: white;
+	max-width: 70%;
+	width: 70%;
+	border-collapse: collapse;
+	text-align: center;
+	font-family: Source Sans Pro;
+	margin-bottom: 6%;
+}
+
+thead {
+	border-bottom: 3px solid #ccc; 
+	font-weight: bold;
+	font-size: 16px;
+}
+
+TD, TH {
+	padding: 3px;
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+}
+
+th {
+	font-weight: normal;
+	color: #000;
+	border-bottom: 2px solid #ccc;
+	padding: 10px 8px;
+}
+
+td {
+	border-bottom: 1px solid #ccc;
+	transition: .3s linear;
+	color: #669;
+	padding: 9px 8px;
+}
+ 
+ tbody tr:hover {
+	color: #6699ff;
+	background: #f3bd48;
+}
+
+tbody {
+	font-weight: normal;
+}
+
+#events {
+	text-align: center;
+	padding: 10px;
+}
+
+.events { 
+    float: right;
+    width: 35%;
+    margin-right: 2%;
+}
+
+/*Створення карамелі*/
+.intro {
+	padding-right: 20px; 
+    float: left;
+    width: 55%;
+    margin-right: 2%;
+	margin-left: 2%;
+}
+
+.green {
+	color: green;
+	font-weight: bold;
+}
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+
+.black {
+	color: black;
+	font-weight: bold;
+}
+
+.brown {
+	color: brown;
+	font-weight: bold;
+}
+
+.pink {
+	color: #900040;
+	font-weight: bold;
+}
+.introipg {
+	float: left;
+	margin: 1% 1% 1% 1%;
+	clear: both;
+}
+
+/*Правий блок*/
+#firstevent , #secevent , #thirdevent {
+	float: right;
+	margin: 1% 0% 1% 1%;	
+}
+
+#firstevent , #secevent {
+	border-bottom: 2px solid gray;	
+}
+
+#secevent , #thirdevent {
+	margin-top: 30px;
+}
+	
+.common {
+	text-align: justify;
+	line-height: 1.5;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+}
+
+.ps1 , .ps2 , .ps3 {
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.ps1 , .ps2 {
+	margin-bottom: 60px;
+}
+
+/*Форма*/
+#bbuy {
+	line-height: 30px;
+	padding: 30px;
+}
+
+form {
+	margin: 10px;
+	float: left;
+}
+
+input {
+	margin: 10px;
+	width: 260px;
+	height: 40px;
+	background-color: #f2f2f2;
+}
+
+select {
+	margin: 10px;
+	width: 560px;
+	height: 40px;
+	background-color: #f2f2f2;
+}
+
+textarea {
+	margin: 10px;
+	width: 555px;
+	height: 40px;
+	background-color: #f2f2f2;
+}
+
+button {
+	margin: 10px;
+	width: 290px;
+	height: 40px;
+}
+
+.nn {
+	text-align: center;
+    margin: 0 auto;
+}
+
+img#bbuy {
+	float: right;
+	margin-right: 11%;
+}
+
+
